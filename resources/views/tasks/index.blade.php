@@ -260,7 +260,6 @@
                 <div class="empty">
                     <h2>No tasks yet</h2>
                     <p>Create your first task to get started.</p>
-                    <a href="{{ route('tasks.create') }}" class="btn btn-primary">Create Task</a>
                 </div>
             @else
                 <table>
